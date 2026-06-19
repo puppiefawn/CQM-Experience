@@ -1,0 +1,59 @@
+header {
+  text-align: center;
+
+}
+
+footer {
+    border-top: solid 1px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#subtitle {
+  text-align: center;
+  font-size: medium;
+  border-bottom: 1pt solid #34354f;
+  padding:1%;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+  padding-bottom: 2px;
+  padding-top: 10px;
+}
+
+p {
+  text-align: center;
+  padding: 1%;
+  border: #89949e;
+  border-top: solid 2px;
+}
+
+.imagehead {
+  width: 200px;
+  height: 200px;
+  max-width: 100%;
+  border-left: solid rgb(43, 44, 56) 2px;
+
+}
+
+.indexbut {
+  border-radius: 20rem;
+  font-size: large;
+  width: 100px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.contain {
+  border: 2px solid;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  max-width:100%;
+}

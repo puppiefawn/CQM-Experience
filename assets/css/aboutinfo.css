@@ -1,0 +1,119 @@
+
+body {
+    /* background-color: pink; */
+    background-image: url(/assets/art/placeholder2.jpg)
+}
+
+.default {
+  --header-color:#ec9e8f;
+  --contain-color:#ffd8c9;
+}
+
+.dark {
+   --header-color:#4E3643;
+    --contain-color: #8a7373;
+}
+
+.darker {
+  --header-color: #764558;
+   --contain-color: #4d384b;
+}
+.contain {
+  border: 2px solid;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  background:var(--contain-color);
+  overflow: auto;
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+li {
+    margin-bottom: 6px;
+    font-size: large;
+    max-width: 100%;
+}
+
+.right {
+    width: 100px;
+    height: 100px;
+    float:right;
+    border-radius: 50px;
+    max-width: 100%;
+}
+
+.left {
+    width: 100px;
+    height: 100px;
+    float:left;
+    border-radius: 50px;
+    max-width: 100%;
+}
+
+header {
+    text-align: center;
+    background:var(--header-color);
+    border-radius: 50px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    padding: 20px;
+    margin-left:3px;
+    margin-right: 3px;
+    max-width: 100%;
+}
+
+.about-info {
+width: 300px;
+height: 300px;
+overflow: auto;
+padding: 2px;
+float: right;
+padding:5px;
+margin-right:15px;
+margin-bottom: 3px;
+max-width: 100%;
+margin-left: 5px;
+}
+
+.social {
+width: fit-content;
+height: 300px;
+padding: 5px;
+margin-left:15px;
+margin-bottom: 4px;
+margin-top: 4px;
+max-width: 100%;
+}
+
+.maininfo {
+    max-width: 100%;
+    padding-bottom: 3px;
+}
+
+footer {
+    border-top: solid 1px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+header {
+    font-family: friendlyscribbles, comic, comicbd, comici, comicz;
+}
+
+p, a, h2, li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+ul {
+    list-style-type: none;
+    max-width: 100%;
+}
+
+a {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}

@@ -1,0 +1,33 @@
+
+.contain {
+  border: 2px solid;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  overflow: auto;
+  max-width: 100%;
+}
+
+header {
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid;
+
+}
+
+footer {
+    border-top: solid 1px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p {
+    margin-left: 50px;
+    margin-right: 50px;
+}

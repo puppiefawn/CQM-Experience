@@ -1,0 +1,30 @@
+  
+    window.onload = function() {
+      // Try to read from local storage, otherwise set to default
+      let currentTheme = localStorage.getItem("mytheme") || "default";
+
+      setTheme("default", currentTheme);
+
+      const themeSelector = document.getElementById("theme-selector");
+      themeSelector.value = currentTheme;
+
+      themeSelector.addEventListener("change", function(e) {
+        const newTheme = e.currentTarget.value;
+        setTheme(currentTheme, newTheme);
+      });
+      
+      const themeToggler = document.querySelector('input[name="toggle-btn"]:checked').value
+
+      function setTheme(oldTheme, newTheme) {
+        const body = document.getElementsByTagName("body")[0];
+
+        body.classList.remove(oldTheme);
+        body.classList.add(newTheme);
+
+        currentTheme = newTheme;
+
+        // Store the new theme in local storage
+        localStorage.setItem("mytheme", newTheme);
+      }
+    };
+  
