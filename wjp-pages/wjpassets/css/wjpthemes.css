@@ -135,3 +135,6 @@ nav {
   background-color: var(--secondary-color)
 }
 
+html {
+ background-color: darkgray;
+}
