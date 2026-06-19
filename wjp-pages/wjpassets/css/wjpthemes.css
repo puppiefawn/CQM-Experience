@@ -134,3 +134,7 @@ nav {
 #theme-selector:hover {
   background-color: var(--secondary-color)
 }
+
+html {
+    transition: var(--primary-color) 3s ease, color 3s ease;
+}
