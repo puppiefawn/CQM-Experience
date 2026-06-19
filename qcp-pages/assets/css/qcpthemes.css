@@ -126,37 +126,18 @@ nav {
     border-radius: 5px;
 }
 
-.switch-toggle {
-  float: left;
-  background: grey;
-  border: 1px solid rgb(32, 27, 27);
-  border-radius: 5px;
-  padding: 2px;
-}
-
-.switch-toggle input {
-  position: absolute;
-  opacity: 0;
-}
-
-.switch-toggle input + label {
-  padding: 7px;
-  float: left;
-  color: #ffffff;
-  cursor: pointer;
-}
-
-.switch-toggle input:checked + label {
-  background: black;
-  transition: background;
-  transition-delay: 100;
-}
 
 #theme-selector {
-    border-radius: 15px;
     text-align: center;
-    border: solid rgb(126, 139, 202) 3px;
-    background-color:#d4dfff;
     margin-right: 4px;
+    background-color: var(--primary-color);
+    border: none;
+     padding: 12px 16px;
+     color: var(--font-color);
+     cursor: pointer;
+}
+
+#theme-selector:hover {
+  background-color: var(--secondary-color)
 }
 
